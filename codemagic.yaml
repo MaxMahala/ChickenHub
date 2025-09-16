@@ -39,11 +39,6 @@ workflows:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
-      email:
-        recipients: maximmagala@gmail.com
-        notify:
-          success: true
-          failure: false
       app_store_connect:
         auth: integration
 
