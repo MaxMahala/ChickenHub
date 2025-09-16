@@ -8,13 +8,13 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.sample.sample
+        bundle_identifier: com.chickenhub.player
       vars:
-        BUNDLE_ID: "com.sample.sample"
-        XCODE_PROJECT: "sample.xcodeproj"
-        XCODE_SCHEME: "sample"
-        APP_STORE_APPLE_ID: 6738407685
-      xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
+        BUNDLE_ID: "com.chickenhub.player"
+        XCODE_PROJECT: "ChickenHub0930.xcodeproj"
+        XCODE_SCHEME: "ChickenHub0930"
+        APP_STORE_APPLE_ID: 6752623373
+      xcode: latest
     scripts:
       - name: Resolve Swift Package Manager dependencies
         script: |
