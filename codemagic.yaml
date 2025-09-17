@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: sampleApiKey
+      app_store_connect: 723JWB5U9S.com.chickenhub.player
     environment:
       ios_signing:
         distribution_type: app_store
